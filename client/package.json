@@ -26,5 +26,5 @@
     "not ie <= 11",
     "not op_mini all"
   ],
-  "proxy": "http://localhost:4000"
+  "proxy": "http://167.99.215.18:4000"
 }

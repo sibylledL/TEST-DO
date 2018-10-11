@@ -11,7 +11,7 @@ class App extends Component {
       <div className="App">
 
         <div>
-          <form method="POST" action="http://localhost:4000/addimage" encType="multipart/form-data">
+          <form method="POST" action="http://167.99.215.18:4000/addimage" encType="multipart/form-data">
             <input type="test" name="titre" placeholder="titre"></input>
             <input type="number" name="year" placeholder="year"></input>
             <input type="file" name="img" placeholder="télécharger img"></input>

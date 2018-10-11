@@ -1,5 +1,4 @@
 import React, {Component} from 'react';
-import axios from 'axios';
 
 class ShowImage extends Component {
   constructor(props) {
@@ -10,7 +9,7 @@ class ShowImage extends Component {
   }
 
   fetchImages = () => {
-    fetch('http://localhost:4000/showimage')
+    fetch('http://167.99.215.18:4000/showimage')
     .then(res => res.json())//promesse avec fonction callback
     .then(body => {
       this.setState({
